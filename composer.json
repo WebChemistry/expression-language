@@ -1,0 +1,17 @@
+{
+    "name": "webchemistry/expression-language",
+    "require": {
+        "php": ">= 8.1",
+        "symfony/expression-language": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebChemistry\\ExpressionLanguage\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.8",
+        "nette/di": "^3.0",
+        "symfony/cache": "^6.1"
+    }
+}
